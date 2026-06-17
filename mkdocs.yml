@@ -1,10 +1,9 @@
 # ZUJ Course Development Hub — site configuration
 # Docs: https://squidfunk.github.io/mkdocs-material/
 
-site_name: ZUJ Course Development Hub
-site_description: IoT, Robotics, and Computer Vision courses
-# Set this to your Pages URL once the repo is created:
-site_url: https://fatayer8891-boop.github.io/zuj-hub/
+site_name: Dr. Akram Fatayer
+site_description: Academic Portfolio & Teaching Hub — AI, Robotics, Computer Vision
+site_url: https://akramfatayer.github.io/
 
 theme:
   name: material

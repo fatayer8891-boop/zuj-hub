@@ -13,7 +13,7 @@ This document defines how AI assistants (Manus, Claude, or any other) coordinate
 
 ```
 Course: [IoT | Robotics | Computer Vision]
-Repo: [link to the course repo]
+Repo: https://github.com/akramfatayer/[course-repo-name]
 Task for this session: [what you want done]
 
 Before responding, read COURSE_CONTEXT.md in the repo for current state.
