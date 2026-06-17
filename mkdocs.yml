@@ -1,0 +1,63 @@
+# ZUJ Course Development Hub — site configuration
+# Docs: https://squidfunk.github.io/mkdocs-material/
+
+site_name: ZUJ Course Development Hub
+site_description: IoT, Robotics, and Computer Vision courses
+# Set this to your Pages URL once the repo is created:
+site_url: https://fatayer8891-boop.github.io/zuj-hub/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs        # top-level tab per course
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy      # copy button on code blocks (useful for your courses)
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+# The scaffold builds immediately with just Home.
+# As you mount each course repo as a submodule under docs/ (see README),
+# uncomment its entry below. Paths point INTO the submodule folder.
+nav:
+  - Home: index.md
+  # - IoT:
+  #     - iot/index.md
+  # - Robotics:
+  #     - robotics/index.md
+  # - Computer Vision:
+  #     - computer-vision/index.md

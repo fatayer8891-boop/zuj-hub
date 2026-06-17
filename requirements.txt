@@ -1,0 +1,4 @@
+# Material for MkDocs (MIT-licensed, maintained, sits on the stable MkDocs 1.x line).
+# Pinned to the 9.x major on purpose: it keeps you off the unlicensed MkDocs 2.0
+# rewrite. When you're ready to migrate, Zensical reads this same mkdocs.yml.
+mkdocs-material>=9.7,<10
